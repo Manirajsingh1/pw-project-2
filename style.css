@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+    background-image: url(pic/reshot-illustration-finance-and-technology-PRDV9K2BEF.png);
+    background-size:1900px 800px;
+    background-position-x: 400px;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+    
+}
+.nav {
+   display: flex;
+   margin: 0;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-left: 250px;
+    margin-top: 30px;
+    
+
+}
+.nav ul li{
+    list-style: none;
+    
+}
+.nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav ul li a:hover{
+    color: #a21818;
+}
+.us{
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 1rem;
+    padding: 0 20px;
+    background-color: #641df1;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+
+}
+.us:hover{
+    background-color:#000000;
+    color: #fff;
+    
+}
+.nav img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.main h2{
+    font-size: 60px;
+}
+.main h2 span{
+    color: #0000ff;
+}
+.main p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.see{
+    margin-left: 400px;
+    margin-top: 40px;
+    font-size: 1rem;
+    padding: 15px 20px;
+    background-color: #641df1;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+.see:hover{
+    background-color:#000000;
+    color: #fff;
+
+}
